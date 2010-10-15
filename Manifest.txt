@@ -1,0 +1,13 @@
+History.txt
+Manifest.txt
+PostInstall.txt
+README.rdoc
+Rakefile
+lib/soul.rb
+lib/soul/solution_parser.rb
+lib/soul/solution.rb
+script/console
+script/destroy
+script/generate
+test/test_helper.rb
+test/test_soul.rb
