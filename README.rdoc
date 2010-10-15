@@ -13,8 +13,8 @@ Solution parser for .NET .sln files.
 
 == SYNOPSIS:
 
-require 'soul'
-solution = Soul.parse("MyProject.sln")
+  require 'soul'
+  solution = Soul.parse("MyProject.sln")
 
 == REQUIREMENTS:
 
@@ -22,7 +22,7 @@ Just itself.
 
 == INSTALL:
 
-sudo gem install soul
+  sudo gem install soul
 
 == LICENSE:
 
