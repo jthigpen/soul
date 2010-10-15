@@ -1,32 +1,34 @@
 = soul
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/jthigpen/soul
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Solution parser for .NET .sln files.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+* Can Parse Solution Files
+* Can't do much else
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+require 'soul'
+solution = Soul.parse("MyProject.sln")
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+Just itself.
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install soul
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2010 FIXME full name
+Copyright (c) 2010 James Thigpen
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

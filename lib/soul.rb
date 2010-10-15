@@ -3,6 +3,11 @@ $:.unshift(File.dirname(__FILE__)) unless
 
 module Soul
   VERSION = '0.0.1'
+
+  def self.parse(filename)
+    parser = SolutionParser.new
+    return parser.parse(filename)
+  end
 end
 
 require 'soul/project'
