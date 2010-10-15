@@ -6,6 +6,7 @@ Rakefile
 lib/soul.rb
 lib/soul/solution_parser.rb
 lib/soul/solution.rb
+lib/soul/project.rb
 script/console
 script/destroy
 script/generate

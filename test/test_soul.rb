@@ -31,4 +31,21 @@ class TestSoul < Test::Unit::TestCase
     name = solution_parser.get_project_file line
     assert_equal name, "Bones.Test\\Bones.Test.csproj"
   end
+
+  def test_can_create_solution
+    solution = Soul::Solution.new
+    assert_not_nil solution
+  end
+
+  def test_can_create_project
+    project = Soul::Project.new
+    assert_not_nil project
+  end
+
+  def test_can_put_projects_in_solution
+    solution = Soul::Solution.new
+    project = Soul::Project.new
+    solution.add_project project
+    assert_same solution.projects[0], project
+  end
 end
